@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "400029389381",
+    "project_id": "ridetrippermobile",
+    "storage_bucket": "ridetrippermobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400029389381:android:f73a9afc949c4f8f50492c",
+        "android_client_info": {
+          "package_name": "com.example.ridetripper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "400029389381-tfa5398ukbn7u40ndt277vq59udihqi3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIQtTwxlWMNWfvibHTY7PhDijnvEHG798"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "400029389381-tfa5398ukbn7u40ndt277vq59udihqi3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
