@@ -1,33 +1,42 @@
 {
   "project_info": {
-    "project_number": "400029389381",
-    "project_id": "ridetrippermobile",
-    "storage_bucket": "ridetrippermobile.appspot.com"
+    "project_number": "63624844824",
+    "firebase_url": "https://rideapp-265e2-default-rtdb.firebaseio.com",
+    "project_id": "rideapp-265e2",
+    "storage_bucket": "rideapp-265e2.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:400029389381:android:f73a9afc949c4f8f50492c",
+        "mobilesdk_app_id": "1:63624844824:android:b692189159bac4a7c1556d",
         "android_client_info": {
-          "package_name": "com.example.ridetripper"
+          "package_name": "com.company.ridetripper"
         }
       },
       "oauth_client": [
         {
-          "client_id": "400029389381-tfa5398ukbn7u40ndt277vq59udihqi3.apps.googleusercontent.com",
+          "client_id": "63624844824-urhr8ijmmfkqpnu0jfdgpqgodoc08nat.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.company.ridetripper",
+            "certificate_hash": "c57fcbf8811b62d9e969e4945bf7d55290cab8e8"
+          }
+        },
+        {
+          "client_id": "63624844824-fn3tjp35nq2k72vlms5b8268qosrf144.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCIQtTwxlWMNWfvibHTY7PhDijnvEHG798"
+          "current_key": "AIzaSyBpG7roxMrmiczh6gbOS6RZ3Lv1xnr_jXE"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "400029389381-tfa5398ukbn7u40ndt277vq59udihqi3.apps.googleusercontent.com",
+              "client_id": "63624844824-fn3tjp35nq2k72vlms5b8268qosrf144.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

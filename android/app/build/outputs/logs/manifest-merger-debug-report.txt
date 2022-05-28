@@ -271,7 +271,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Us
 		ADDED from D:\MAD Project\ridetripper\ridetripper\android\app\src\main\AndroidManifest.xml:19:9-27
 	android:icon
 		ADDED from D:\MAD Project\ridetripper\ridetripper\android\app\src\main\AndroidManifest.xml:20:9-43
-activity#com.example.ridetripper.MainActivity
+activity#com.company.ridetripper.MainActivity
 ADDED from D:\MAD Project\ridetripper\ridetripper\android\app\src\main\AndroidManifest.xml:21:9-49:20
 	android:launchMode
 		ADDED from D:\MAD Project\ridetripper\ridetripper\android\app\src\main\AndroidManifest.xml:23:13-43
