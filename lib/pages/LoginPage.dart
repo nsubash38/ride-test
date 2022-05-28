@@ -70,7 +70,10 @@ class _LoginPageState extends State<LoginPage> {
     String? role = await _storage.read(key: "role");
     FirebaseFirestore.instance
         .collection(role == 'driver' ? 'driver' : 'rider')
-        .where("phoneno", isEqualTo: int.parse(emailController.text))
+        .where("phoneno",
+            isEqualTo: int.parse(
+              emailController.text,
+            ))
         .get()
         .then((QuerySnapshot querySnapshot) {
       if (querySnapshot.docs.length > 0) {

@@ -117,7 +117,6 @@ class _MapPageState extends State<MapPage> with OSMMixinObserver {
   }
 
   Future handleRequetTrip() async {
-    
     int totalCosts = requestCostCalculation();
     final toUTC = DateTime(
         int.parse(widget.sDate.substring(6, 10)),
@@ -134,7 +133,7 @@ class _MapPageState extends State<MapPage> with OSMMixinObserver {
         .get()
         .then((document) async {
       final tripModel = TripModel(
-          id: id + document["counter"].toString(),
+          id: id + document.data()!["counter"].toString(),
           date: toUTC,
           starting_point: widget.sLatlng.address.toString(),
           ending_point: widget.eLatlng.address.toString(),
